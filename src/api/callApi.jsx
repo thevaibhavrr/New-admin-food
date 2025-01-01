@@ -20,8 +20,8 @@ export const makeApi = async (
 
     const config = {
       method,
-      // url: `https://pajiweb.onrender.com${endpoint}`,
-      url:"http://localhost:5008"+endpoint,
+      url: `https://blliv-food.onrender.com${endpoint}`,
+      // url:"http://localhost:5008"+endpoint,
       // url: `https://new-palji-backend-1.onrender.com${endpoint}`,
       headers,
       data
