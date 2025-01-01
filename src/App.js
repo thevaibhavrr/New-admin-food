@@ -13,14 +13,14 @@ import Userdetails from './AdminComponents/user/userdetails';
 function App() {
   const history = useNavigate();
 
-  useEffect(() => {
-    // Check if the user is logged in
-    const token = localStorage.getItem('token');
-    // If token is not found, redirect to login page
-    if (!token ) {
-      history('/');
-    }
-  }, []);
+  // useEffect(() => {
+  //   // Check if the user is logged in
+  //   const token = localStorage.getItem('token');
+  //   // If token is not found, redirect to login page
+  //   if (!token ) {
+  //     history('/');
+  //   }
+  // }, []);
   return (
     <div>
        <Routes>
